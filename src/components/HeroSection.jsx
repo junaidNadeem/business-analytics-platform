@@ -1,80 +1,55 @@
+import { IoFlashSharp } from 'react-icons/io5';
+import { RiBarChartLine } from 'react-icons/ri';
+import { FaPlay } from 'react-icons/fa';
+import { IoAnalyticsSharp } from 'react-icons/io5';
+
 const HeroSection = () => {
   return (
-    <div className="bg-white py-12 px-8 md:px-16 lg:px-24 flex flex-col md:flex-row items-center justify-between text-center md:text-left">
+    <div className="flex flex-col md:flex-row items-center justify-center  p-8 space-y-8 md:space-y-0">
+      {/* Text and Icons Section */}
       <div className="flex flex-col space-y-4">
-        <div className="flex items-center space-x-4">
-          <div className="bg-red-500 rounded-full h-12 w-12 flex items-center justify-center relative">
-            {' '}
-            {/* Added relative positioning for the play button */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-white"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-              />
-            </svg>
-            <div className="absolute top-2 right-2 bg-white rounded-full h-4 w-4"></div>{' '}
-            {/* Added the small white circle for the play button */}
+        {/* Analytics Text with Icons */}
+        <div className="flex items-center  mt-24 ">
+          <div className="relative ml-16">
+            <div className="flex items-center justify-center w-14 h-14 rounded-full bg-gray-200">
+              <IoFlashSharp className="text-2xl" />
+            </div>
+            <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#ff4a24] absolute top-0 left-10">
+              <IoAnalyticsSharp className="text-2xl" />
+            </div>
           </div>
-          <div className="bg-gray-200 rounded-full h-12 w-12 flex items-center justify-center">
-            {' '}
-            {/* Changed background color to gray-200 */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-gray-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              {' '}
-              {/* Changed icon color to gray-500 */}
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 19V6l12 7-12 7m0 0V4m0 15h4m-4-2h4"
-              />{' '}
-              {/* Changed icon path */}
-            </svg>
-          </div>
+          <h1 className="ml-16 text-7xl  text-black">Analytics</h1>
         </div>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-          Analytics <span className="text-gray-400">that helps you</span>
-        </h1>
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight">
-          shape <span className="text-yellow-500">the future</span>
-        </h2>
+        {/* Middle Text Section */}
+        <div className="text-7xl  mb-4">
+          <span className="text-black">that </span>
+          <span className="text-gray-400">helps </span>
+          <span className="text-black">you </span>
+        </div>
+        {/* Bottom Text Section */}
+        <div className="text-7xl flex items-center">
+          <span className="text-black ml-40">shape </span>
+          <div className="flex items-center justify-center w-14 h-14 rounded-full bg-yellow-400 mx-2">
+            <RiBarChartLine className="text-black text-2xl" />
+          </div>
+          <span className="text-black">the future</span>
+        </div>
       </div>
-      <div className="mt-8 md:mt-0 relative">
-        {' '}
-        {/* Added relative positioning for the laptop image */}
-        <img
-          src="/path-to-laptop-image.png"
-          alt="Laptop with Analytics"
-          className="h-64 md:h-80 lg:h-96"
-        />
-        <div className="absolute -top-4 -right-4 bg-red-500 rounded-full h-8 w-8 flex items-center justify-center">
+      {/* Image and Play Button Section */}
+
+      <div className="absolute md:static right-0 bottom-0 md:bottom-auto transform md:translate-x-0 md:translate-y-0 -ml-8 md:-ml-64">
+        {/* Modified positioning for the image container */}
+        <div className="relative z-10">
           {' '}
-          {/* Added the play button circle on the laptop image */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4 text-white"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fillRule="evenodd"
-              d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-              clipRule="evenodd"
-            />
-          </svg>
+          {/* Ensure play button is above the image */}
+          <div className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-[#ff4a24]">
+            <FaPlay className="text-white text-sm" />
+          </div>
+          <img
+            src="../../public/images/hero-img4.jpeg"
+            alt="Analytics Illustration"
+            className="w-64 h-40 rounded-2xl shadow-lg"
+          />
         </div>
       </div>
     </div>
