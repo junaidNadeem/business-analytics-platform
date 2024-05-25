@@ -9,28 +9,28 @@ const HeroSection = () => {
       {/* Text and Icons Section */}
       <div className="flex flex-col space-y-4">
         {/* Analytics Text with Icons */}
-        <div className="flex items-center  mt-24 ">
+        <div className="flex items-center  mt-24 animate-fadeInUp">
           <div className="relative ml-16">
             <div className="flex items-center justify-center w-14 h-14 rounded-full bg-gray-200">
-              <IoFlashSharp className="text-2xl" />
+              <IoFlashSharp className="text-2xl text-[#ff4a24] animate-fadeInUp" />
             </div>
             <div className="flex items-center justify-center w-14 h-14 rounded-full bg-[#ff4a24] absolute top-0 left-10">
-              <IoAnalyticsSharp className="text-2xl" />
+              <IoAnalyticsSharp className="text-2xl text-white animate-fadeInUp" />
             </div>
           </div>
           <h1 className="ml-16 text-7xl  text-black">Analytics</h1>
         </div>
         {/* Middle Text Section */}
-        <div className="text-7xl  mb-4">
+        <div className="text-7xl mb-4 animate-fadeInUp">
           <span className="text-black">that </span>
           <span className="text-gray-400">helps </span>
           <span className="text-black">you </span>
         </div>
         {/* Bottom Text Section */}
-        <div className="text-7xl flex items-center">
+        <div className="text-7xl flex items-center animate-fadeInUp">
           <span className="text-black ml-40">shape </span>
           <div className="flex items-center justify-center w-14 h-14 rounded-full bg-yellow-400 mx-2">
-            <RiBarChartLine className="text-black text-2xl" />
+            <RiBarChartLine className="text-black text-4xl font-extrabold animate-fadeInUp" />
           </div>
           <span className="text-black">the future</span>
         </div>
@@ -43,12 +43,12 @@ const HeroSection = () => {
           {' '}
           {/* Ensure play button is above the image */}
           <div className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-[#ff4a24]">
-            <FaPlay className="text-white text-sm" />
+            <FaPlay className="text-white text-sm animate-fadeInUp" />
           </div>
           <img
             src="../../public/images/hero-img4.jpeg"
             alt="Analytics Illustration"
-            className="w-64 h-40 rounded-2xl shadow-lg"
+            className="w-64 h-40 rounded-2xl shadow-lg animate-fadeInUp"
           />
         </div>
       </div>
