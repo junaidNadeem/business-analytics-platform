@@ -5,7 +5,10 @@ function InsightsComponent() {
   return (
     <div className="flex flex-col text-center space-y-2 md:text-left">
       <div className="text-left p-8">
-        <h1 className="text-3xl md:text-8xl leading-tight">
+        <h1
+          className="text-3xl md:text-8xl leading-tight"
+          data-aos="fade-up-right"
+        >
           We give you full <br />
           <span className="text-gray-400 text-5xl md:text-8xl leading-tight">
             control{' '}
@@ -22,11 +25,17 @@ function InsightsComponent() {
           <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center justify-center relative bg-[url('../../public/images/grid.png')] bg-repeat">
             <div className="flex items-center justify-center gap-2">
               <div className="flex items-center justify-center bg-gray-100">
-                <div className="bg-white rounded-3xl p-6 shadow-lg w-36">
+                <div
+                  className="bg-white rounded-3xl p-6 shadow-lg w-36"
+                  data-aos="fade-left"
+                >
                   <div className="relative flex items-center justify-center text-xs">
                     <p>Conversion rate</p>
                   </div>
-                  <div className="bg-yellow-400 rounded-xl py-3 my-3 text-center">
+                  <div
+                    className="bg-yellow-400 rounded-xl py-3 my-3 text-center"
+                    data-aos="slide-right"
+                  >
                     <span className="text-4xl font-medium ">2,3</span>
                     <span className="text-2xl font-normal ">%</span>
                   </div>
@@ -38,12 +47,18 @@ function InsightsComponent() {
               </div>
 
               {/*  */}
-              <div className="flex items-center justify-center bg-gray-100">
+              <div
+                className="flex items-center justify-center bg-gray-100"
+                data-aos="fade-right"
+              >
                 <div className="bg-white rounded-2xl p-6 shadow-lg w-44">
                   <div className="text-xl font-normal mb-2">
                     <span className="text-sm font-light">$ </span>131,2K
                   </div>
-                  <div className="flex items-center mb-4">
+                  <div
+                    className="flex items-center mb-4"
+                    data-aos="slide-right"
+                  >
                     <div className="flex-1 h-1 bg-green-400 rounded-full"></div>
                     <div className="flex-1 h-1 bg-yellow-400 rounded-full mx-1"></div>
                     <div className="flex-1 h-1 bg-purple-400 rounded-full"></div>

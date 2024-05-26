@@ -7,6 +7,7 @@ function GetStartedComponent() {
         style={{
           boxShadow: '0px 20px 15px  rgba(242, 89, 34, 0.4)',
         }}
+        data-aos="zoom-out"
       >
         {/* Replace with your SVG logo */}
         <svg
@@ -26,7 +27,9 @@ function GetStartedComponent() {
       </div>
 
       {/* Heading */}
-      <h1 className="text-8xl">Get Started</h1>
+      <h1 className="text-8xl" data-aos="fade-up">
+        Get Started
+      </h1>
 
       {/* Subheading */}
       <p className="text-gray-400 text-center max-w-sm">
@@ -36,10 +39,16 @@ function GetStartedComponent() {
 
       {/* Buttons */}
       <div className="flex space-x-4">
-        <button className="bg-gray-300 border border-gray-300 rounded-xl py-2 px-6 hover:bg-gray-100">
+        <button
+          className="bg-gray-300 border border-gray-300 rounded-xl py-2 px-6 hover:bg-gray-100"
+          data-aos="zoom-in"
+        >
           Request a demo
         </button>
-        <button className="bg-[#F25922] text-white rounded-xl py-2 px-6 hover:bg-[#d14a1a]">
+        <button
+          className="bg-[#F25922] text-white rounded-xl py-2 px-6 hover:bg-[#d14a1a]"
+          data-aos="zoom-in"
+        >
           Start for free
         </button>
       </div>

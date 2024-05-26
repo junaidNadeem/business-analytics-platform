@@ -4,7 +4,10 @@ function FooterComponent() {
   return (
     <div className="bg-black text-white p-8 pt-16">
       {/* Top Navigation */}
-      <div className="flex justify-between items-center mb-4">
+      <div
+        className="flex justify-between items-center mb-4"
+        data-aos="fade-up"
+      >
         <nav className="flex space-x-6 text-gray-500">
           <a href="#" className="hover:underline">
             About
@@ -26,21 +29,21 @@ function FooterComponent() {
           hello@ramos.com
         </a>
       </div>
-      <hr className="border-t-2 border-gray-700 mt-12 mb-10" />
+      <hr className="border border-gray-600 mt-12 mb-10" />
 
       {/* Contact Info and Social Media Links */}
 
       {/* Office Addresses */}
       <div className="flex justify-between items-start mb-8">
         <div className="flex flex-row items-start gap-8">
-          <div>
+          <div data-aos="fade-up">
             <h2 className="">Raleigh</h2>
             <div className="text-gray-500">
               <p>125 N. Harrington StreetRaleigh,</p>
               <p>NC 27603919.833.6413</p>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <h2 className=" ">Charlotte</h2>
             <div className="text-gray-500">
               <p>220 East Peterson DriveCharlotte,</p>
@@ -48,7 +51,10 @@ function FooterComponent() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end space-y-2 gap-2">
+        <div
+          className="flex flex-col items-end space-y-2 gap-2"
+          data-aos="fade-up"
+        >
           <a href="#" className="flex items-center hover:underline ">
             {/* <FaLinkedin className="mr-2" /> */}
             Linkedin
@@ -66,9 +72,13 @@ function FooterComponent() {
 
       {/* Footer Bottom */}
       <div className="flex justify-between items-center">
-        <div className="text-8xl font-bold">
-          Ramos <sup className="align-super text-4xl">®</sup>
-        </div>
+        <img
+          src="../../public/images/ramos.png"
+          alt="ramos image"
+          className="rounded-md"
+          data-aos="fade-up"
+        />
+
         <div className="flex space-x-6">
           <a href="#" className="hover:underline text-gray-500">
             Privacy policy
@@ -78,11 +88,14 @@ function FooterComponent() {
           </a>
         </div>
 
-        <div className="ml-4">
+        <div
+          className="ml-4 rounded-3xl p-2 flex items-center justify-center w-[10%] bg-white"
+          data-aos="zoom-in"
+        >
           <img
-            src="https://via.placeholder.com/100"
+            src="../../public/images/qrcode.png"
             alt="QR Code"
-            className="rounded-md"
+            className=""
           />
         </div>
       </div>

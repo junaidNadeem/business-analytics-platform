@@ -2,13 +2,13 @@ import { FaLink } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <header className="bg-black text-white px-2 m-2 rounded-2xl flex justify-between items-center">
-      <div className="flex items-center ml-2">
+    <header className="bg-black text-white px-2 m-2 rounded-2xl flex justify-between items-center animate-fadeInUp">
+      <div className="flex items-center ml-2 animate-fadeInUp">
         <FaLink className="h-4 w-4 mr-2" />
         <span className="font-semibold text-lg">ramos</span>
       </div>
 
-      <nav className="space-x-4 bg-[#252525]  rounded-xl p-2 m-2">
+      <nav className="space-x-4 bg-[#252525]  rounded-xl p-2 m-2 animate-fadeInUp">
         <a href="#" className="hover:underline mx-4">
           Dashboard
         </a>
@@ -26,7 +26,7 @@ const Header = () => {
         </a>
       </nav>
 
-      <button className="bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-200">
+      <button className="bg-white text-black px-4 py-2 rounded-xl hover:bg-gray-200 animate-fadeInUp">
         Sign Up
       </button>
     </header>

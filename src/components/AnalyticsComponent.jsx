@@ -1,21 +1,22 @@
 import { FaCircleArrowUp } from 'react-icons/fa6';
 import { IoLayersOutline } from 'react-icons/io5';
+import { TbHexagonLetterI } from 'react-icons/tb';
 // import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts'; // Assuming you're using Recharts for the line chart
 
 const AnalyticsComponent = () => {
   return (
-    <div className="flex flex-col  space-y-4">
+    <div className="flex flex-col space-y-4 py-12 mt-12 mb-16 rounded-[3.5rem] bg-[#f9f9f9]">
       {/* // header part of the analyticCompo section starts here */}
       <div className="flex flex-col md:flex-row items-center justify-items-end p-8">
         {/* Left Side Text */}
-        <div className="text-left">
+        <div className="text-left" data-aos="fade-up">
           <h1 className="text-4xl  text-black leading-tight">
             Your key to strategic <br />
             success through analytics
           </h1>
         </div>
         {/* Right Side Text */}
-        <div className="text-right mt-4 md:mt-0 ml-auto">
+        <div className=" mt-4 md:mt-0 ml-auto" data-aos="fade-up">
           <p className=" text-gray-600">
             Ready for exciting, instantaneous, <br />
             all-accessible insights in real time?
@@ -27,17 +28,23 @@ const AnalyticsComponent = () => {
         {/* Left Section */}
         <div className="bg-white rounded-2xl p-6 shadow-lg w-full md:w-[60%] flex space-y-6">
           <div className="mr-auto p-6">
-            <button className="bg-yellow-400 rounded-xl py-2 px-4  text-sm  shadow-md mb-8">
+            <button
+              className="bg-yellow-400 rounded-xl py-2 px-4  text-sm  shadow-md mb-8"
+              data-aos="fade-up"
+            >
               Setting up reports
             </button>
 
-            <h2 className="text-2xl mb-4 ">
+            <h2 className="text-2xl mb-4 " data-aos="fade-up">
               Fast and easy access
               <br />
               to analytics
             </h2>
 
-            <p className="text-gray-500 text-base leading-relaxed max-w-xs mx-auto">
+            <p
+              className="text-gray-500 text-base leading-relaxed max-w-xs mx-auto"
+              data-aos="fade-up"
+            >
               One platform is a comprehensive <br /> system of solutions that
               will be the <br /> first step towards digitalization of <br />
               your business!
@@ -50,7 +57,7 @@ const AnalyticsComponent = () => {
             <h2 className="text-lg font-medium mb-4">Sales statistic</h2>
 
             <div className="flex justify-between mb-6">
-              <div className="flex items-center">
+              <div className="flex items-center" data-aos="fade-up">
                 <div className="w-12 h-12 rounded-full bg-[#F25922] flex items-center justify-center">
                   {/* You might replace this with an icon component */}
                   <span className="text-white">
@@ -66,7 +73,10 @@ const AnalyticsComponent = () => {
                 </div>
               </div>
 
-              <div className="bg-gray-100 rounded-2xl py-4 px-8 flex flex-col items-center relative ml-3">
+              <div
+                className="bg-gray-100 rounded-2xl py-4 px-8 flex flex-col items-center relative ml-3"
+                data-aos="fade-up"
+              >
                 <div className="flex items-center  text-[10px] mb-2 tracking-wider">
                   Visitors
                 </div>
@@ -89,29 +99,31 @@ const AnalyticsComponent = () => {
                       +14%
                     </span>
                   </div>
-                  <span className="text-2xl ">44K</span>
+                  <span className="text-2xl ">30K</span>
                 </div>
               </div>
             </div>
 
-            <h3 className="text-sm text-gray-500 mb-2">Visit statistics</h3>
+            <div
+              className="flex flex-col border rounded-lg p-1"
+              data-aos="fade-up"
+            >
+              <h3 className="text-sm text-gray-500 mb-2">Visit statistics</h3>
+              <div className="flex items-end justify-between">
+                <img
+                  src="../../public/images/graph-up.jpeg"
+                  alt="Graph image"
+                  className="w-[55%]"
+                />
+                <div className="flex-col bg-[#F25922] rounded-lg px-4 py-2 flex items-start mt-4">
+                  <div className="flex items-center justify-end">
+                    <p className="text-sm text-white">Rate</p>
+                    <TbHexagonLetterI className="text-white text-sm" />
+                  </div>
 
-            {/* <LineChart width={300} height={150} data={data}>
-              <Line
-                type="monotone"
-                dataKey="visits"
-                stroke="#FF9900"
-                strokeWidth={3}
-              />
-              <XAxis dataKey="day" />
-              <YAxis domain={[0, 200]} hide={true} />
-              <Tooltip />
-            </LineChart> */}
-
-            <div className="bg-red-500 rounded-lg px-4 py-2 flex items-center mt-4">
-              <p className="text-sm text-white">Rate</p>
-              <p className="text-2xl font-bold text-white ml-2">33%</p>
-              {/* Add the red bell icon here */}
+                  <p className="text-2xl font-medium text-white ml-2">39%</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -120,7 +132,10 @@ const AnalyticsComponent = () => {
         <div className="bg-black text-white rounded-2xl p-6 shadow-lg w-full md:w-[40%] flex flex-col items-center justify-center space-y-6">
           <div className="flex space-x-6">
             <div className="flex items-center justify-center space-x-4">
-              <div className="bg-[#131111] rounded-2xl p-8 flex flex-col items-center space-y-4">
+              <div
+                className="bg-[#131111] rounded-2xl p-8 flex flex-col items-center space-y-4"
+                data-aos="fade-left"
+              >
                 <div className="text-yellow-500">
                   <IoLayersOutline className="text-4xl" />
                 </div>
@@ -138,7 +153,10 @@ const AnalyticsComponent = () => {
                 </div>
               </div>
               {/*  */}
-              <div className="bg-[#131111] rounded-2xl py-8 px-10 flex flex-col items-center relative">
+              <div
+                className="bg-[#131111] rounded-2xl py-8 px-10 flex flex-col items-center relative"
+                data-aos="fade-right"
+              >
                 {/* Label with Icon */}
                 <div className="flex items-center text-gray-200 text-[10px] mb-2 tracking-wider">
                   Transactions
@@ -157,10 +175,13 @@ const AnalyticsComponent = () => {
               {/*  */}
             </div>
           </div>
-          <div className="mt-4">
+          <div className="mt-4" data-aos="fade-up">
             <p className="text-lg">Widget control</p>
           </div>
-          <div className="mt-4 flex flex-col items-center justify-center">
+          <div
+            className="mt-4 flex flex-col items-center justify-center"
+            data-aos="fade-up"
+          >
             <p className="text-gray-400 text-sm">
               Reports provide a comprehensive overview
             </p>
@@ -178,7 +199,7 @@ const AnalyticsComponent = () => {
           <span className="text-lg md:text-xl">Up to</span>
           <span className="text-black text-6xl md:text-8xl font-bold">45%</span>
         </div>
-        <div className="md:ml-4 text-center md:text-left">
+        <div className="md:ml-4 text-center md:text-left" data-aos="fade-up">
           <p className="text-gray-700 text-base md:text-xs leading-relaxed">
             Increase your analytics efficiency by up to 45%. Unique <br />{' '}
             algorithms provide insights from data, reduce time for analysis{' '}
