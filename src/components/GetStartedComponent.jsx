@@ -9,7 +9,6 @@ function GetStartedComponent() {
         }}
         data-aos="zoom-out"
       >
-        {/* Replace with your SVG logo */}
         <svg
           className="w-10 h-10 text-white"
           fill="none"
@@ -26,12 +25,10 @@ function GetStartedComponent() {
         </svg>
       </div>
 
-      {/* Heading */}
       <h1 className="text-8xl" data-aos="fade-up">
         Get Started
       </h1>
 
-      {/* Subheading */}
       <p className="text-gray-400 text-center max-w-sm">
         Turn information into advantage! Start using <br></br> Ramos today. Sign
         up for a free trial.

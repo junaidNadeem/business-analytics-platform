@@ -1,7 +1,6 @@
 import { FaCircleArrowUp } from 'react-icons/fa6';
 import { IoLayersOutline } from 'react-icons/io5';
 import { TbHexagonLetterI } from 'react-icons/tb';
-// import { LineChart, Line, XAxis, YAxis, Tooltip } from 'recharts'; // Assuming you're using Recharts for the line chart
 
 const AnalyticsComponent = () => {
   return (
@@ -59,7 +58,6 @@ const AnalyticsComponent = () => {
             <div className="flex justify-between mb-6">
               <div className="flex items-center" data-aos="fade-up">
                 <div className="w-12 h-12 rounded-full bg-[#F25922] flex items-center justify-center">
-                  {/* You might replace this with an icon component */}
                   <span className="text-white">
                     <IoLayersOutline className="text-sm" />
                   </span>
@@ -118,7 +116,7 @@ const AnalyticsComponent = () => {
                 <div className="flex-col bg-[#F25922] rounded-lg px-4 py-2 flex items-start mt-4">
                   <div className="flex items-center justify-end">
                     <p className="text-sm text-white">Rate</p>
-                    <TbHexagonLetterI className="text-white text-sm" />
+                    <TbHexagonLetterI className="text-white text-sm ml-6" />
                   </div>
 
                   <p className="text-2xl font-medium text-white ml-2">39%</p>
@@ -131,9 +129,9 @@ const AnalyticsComponent = () => {
         {/* Right Section */}
         <div className="bg-black text-white rounded-2xl p-6 shadow-lg w-full md:w-[40%] flex flex-col items-center justify-center space-y-6">
           <div className="flex space-x-6">
-            <div className="flex items-center justify-center space-x-4">
+            <div className="flex items-center justify-center space-x-2">
               <div
-                className="bg-[#131111] rounded-2xl p-8 flex flex-col items-center space-y-4"
+                className="bg-[#131111] border-[0.5px] border-gray-500 rounded-2xl p-6 flex flex-col items-center space-y-4"
                 data-aos="fade-left"
               >
                 <div className="text-yellow-500">
@@ -154,16 +152,15 @@ const AnalyticsComponent = () => {
               </div>
               {/*  */}
               <div
-                className="bg-[#131111] rounded-2xl py-8 px-10 flex flex-col items-center relative"
+                className="bg-[#131111] border-[0.5px] border-gray-500 rounded-2xl py-8 px-9 flex flex-col items-center relative"
                 data-aos="fade-right"
               >
-                {/* Label with Icon */}
                 <div className="flex items-center text-gray-200 text-[10px] mb-2 tracking-wider">
                   Transactions
                 </div>
                 {/* Main Content */}
                 <div className="flex flex-col items-center mt-4 space-y-2">
-                  <div className="flex items-center justify-end absolute top-14 right-[10px]">
+                  <div className="flex items-center justify-end absolute top-14 right-3">
                     <FaCircleArrowUp className="text-green-400 text-lg" />
                     <span className="text-green-400 text-[10px] ml-[2px]">
                       +14%

@@ -1,5 +1,3 @@
-// import { FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
-
 function FooterComponent() {
   return (
     <div className="bg-black text-white p-8 pt-16">
@@ -32,8 +30,6 @@ function FooterComponent() {
       <hr className="border border-gray-600 mt-12 mb-10" />
 
       {/* Contact Info and Social Media Links */}
-
-      {/* Office Addresses */}
       <div className="flex justify-between items-start mb-8">
         <div className="flex flex-row items-start gap-8">
           <div data-aos="fade-up">
@@ -56,15 +52,12 @@ function FooterComponent() {
           data-aos="fade-up"
         >
           <a href="#" className="flex items-center hover:underline ">
-            {/* <FaLinkedin className="mr-2" /> */}
             Linkedin
           </a>
           <a href="#" className="flex items-center hover:underline">
-            {/* <FaInstagram className="mr-2" /> */}
             Instagram
           </a>
           <a href="#" className="flex items-center hover:underline">
-            {/* <FaFacebook className="mr-2" /> */}
             Facebook
           </a>
         </div>

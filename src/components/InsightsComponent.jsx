@@ -1,5 +1,4 @@
 import { CiWavePulse1 } from 'react-icons/ci';
-// import { FaRegChartBar } from 'react-icons/fa';
 
 function InsightsComponent() {
   return (
@@ -21,8 +20,8 @@ function InsightsComponent() {
 
       <div className="bg-white p-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
-          {/* Card 1: Conversion Rate */}
-          <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center justify-center relative bg-[url('../../public/images/grid.png')] bg-repeat">
+          {/* Card 1*/}
+          <div className="bg-gray-100 rounded-3xl p-6 flex flex-col items-center justify-center relative bg-[url('../../public/images/grid.png')] bg-repeat ">
             <div className="flex items-center justify-center gap-2">
               <div className="flex items-center justify-center bg-gray-100">
                 <div
@@ -117,9 +116,8 @@ function InsightsComponent() {
             </div>
           </div>
 
-          {/* Card 2: Finance Reports */}
-          <div className="bg-gray-100 rounded-lg p-6 flex flex-col items-center justify-center bg-[url('../../public/images/grid.png')] bg-repeat">
-            {/* card here */}
+          {/* Card 2 */}
+          <div className="bg-gray-100 rounded-3xl p-6 flex flex-col items-center justify-center bg-[url('../../public/images/grid.png')] bg-repeat">
             <div className="rounded-2xl shadow-md bg-white w-[70%] h-[70%] py-6 px-8 flex items-center relative">
               <div className="flex flex-col justify-start items-start text-[10px] gap-2">
                 <div className="flex items-center justify-center gap-1 mb-9">
@@ -149,7 +147,6 @@ function InsightsComponent() {
                 />
               </div>
             </div>
-            {/* card here */}
             <div className="mt-4">
               <p className="text-lg">Monitoring key indicators</p>
             </div>

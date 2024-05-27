@@ -20,7 +20,7 @@ const EfficiencyComponent = () => {
           </h1>
         </div>
 
-        <div className="flex items-center justify-center mt-4">
+        <div className="flex items-center justify-center mt-6">
           {/* Overlapping Circles Component */}
           <div className="flex max-w-sm mr-auto relative">
             {/* Left Circle with Icon */}
@@ -49,15 +49,13 @@ const EfficiencyComponent = () => {
 
           {/* Text Component */}
           <div
-            className="bg-yellow-400 rounded-[2rem] text-5xl md:text-8xl"
+            className="bg-yellow-400 py-3 rounded-[2.5rem] text-5xl md:text-8xl"
             data-aos="zoom-out"
           >
             <p data-aos="slide-left">tic Serv</p>
           </div>
         </div>
       </div>
-      {/* call to action */}
-      {/* Text Section */}
       <hr className="border-t-[1px] border-gray-100 w-[90%] mt-12 mb-10 mx-auto" />
 
       <div className="bg-white py-12 px-6 md:py-16 md:px-12 lg:px-24 flex flex-col md:flex-row items-end justify-between">

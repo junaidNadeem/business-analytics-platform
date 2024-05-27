@@ -1,6 +1,6 @@
 function DataComponent() {
   return (
-    <div className="flex shadow-sm bg-[url('../../public/images/grid.png')] bg-repeat pt-12 mt-12 mb-20 rounded-[3.5rem] bg-[#f9f9f9]">
+    <div className="flex shadow-sm bg-[url('../../public/images/grid.png')] bg-repeat pt-12 pb-72 mt-12 mb-20 rounded-[3.5rem] bg-[#f9f9f9]">
       <div className="p-8 flex flex-col space-y-12 md:flex-row justify-between mb-10 relative">
         {/* Left Section */}
         <div className="px-8 pb-8 space-y-6">
@@ -43,12 +43,16 @@ function DataComponent() {
               </span>
             </button>
           </div>
+
+          <div
+            className="text-[17rem] font-black text-[#ff4a24] absolute top-[22rem] left-[3rem]"
+            data-aos="fade-down-right"
+          >
+            Ramos
+          </div>
         </div>
-        {/* <div className="text-[17rem] font-black text-[#ff4a24]">Ramos</div> */}
         {/* Right Section */}
         <div className="md:w-1/2">
-          {/* Phone and Tablet View */}
-
           <div
             className="bg-white border-[10px] border-black rounded-2xl"
             data-aos="fade-up"
@@ -61,13 +65,7 @@ function DataComponent() {
           </div>
 
           <div
-            className="text-[17rem] font-black text-[#ff4a24]"
-            data-aos="fade-down-right"
-          >
-            Ram
-          </div>
-          <div
-            className="bg-white border-8 border-black rounded-2xl w-[18%] h-[55%] mx-auto absolute top-40 left-[32rem]"
+            className="bg-white border-8 border-black rounded-2xl w-[18%] h-[90%] mx-auto absolute top-40 left-[32rem]"
             data-aos="slide-up"
           >
             <div className="flex flex-col items-center justify-center w-full h-full">
@@ -77,7 +75,7 @@ function DataComponent() {
                 className="w-full h-full rounded-md shadow-md "
               />
               <img
-                src="../../public/images/inner2-f.png"
+                src="../../public/images/inside.jpeg"
                 alt="laptop screen"
                 className="w-full h-full rounded-md shadow-md"
                 data-aos="slide-up"
