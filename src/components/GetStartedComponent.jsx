@@ -1,6 +1,6 @@
 function GetStartedComponent() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen space-y-6">
+    <div className="flex flex-col items-center justify-center my-48 space-y-6">
       {/* Logo */}
       <div
         className="bg-[#F25922] rounded-3xl w-20 h-20 flex items-center justify-center shadow-[0_5px_60px_-15px_rgba(242,89,34,0.9)] "

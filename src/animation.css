@@ -25,3 +25,18 @@
     opacity: 1;
   }
 }
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-text {
+  display: inline-block;
+  animation: slideRightToLeft 10s linear infinite;
+  white-space: nowrap;
+}

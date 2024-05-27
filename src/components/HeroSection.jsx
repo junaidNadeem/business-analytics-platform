@@ -5,9 +5,9 @@ import { LuBarChart2 } from 'react-icons/lu';
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center  p-8 space-y-8 md:space-y-0">
+    <div className="flex flex-col md:flex-row items-center justify-center  p-8 space-y-8 md:space-y-0 w-[90%] mx-auto">
       {/* Text and Icons Section */}
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col space-y-8">
         <div className="flex items-center  mt-24 animate-fadeInUp">
           <div className="relative ml-16">
             <div className="flex items-center justify-center w-14 h-14 rounded-full bg-gray-200 scale-up-center">

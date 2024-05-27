@@ -2,7 +2,7 @@ import { CiWavePulse1 } from 'react-icons/ci';
 
 const EfficiencyComponent = () => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col w-[90%] mx-auto ">
       <div className="bg-white rounded-lg px-8 py-12 flex flex-col md:flex-col justify-between">
         <div className="text-left">
           <h1 className="text-5xl md:text-8xl leading-tight" data-aos="fade-up">
@@ -49,18 +49,20 @@ const EfficiencyComponent = () => {
 
           {/* Text Component */}
           <div
-            className="bg-yellow-400 py-3 rounded-[2.5rem] text-5xl md:text-8xl"
+            className="bg-yellow-400 w-96 py-3 rounded-[2.5rem] text-5xl md:text-8xl overflow-hidden"
             data-aos="zoom-out"
           >
-            <p data-aos="slide-left">tic Serv</p>
+            <p className="animate-text" data-aos="slide-left">
+              analytics services
+            </p>
           </div>
         </div>
       </div>
-      <hr className="border-t-[1px] border-gray-100 w-[90%] mt-12 mb-10 mx-auto" />
+      <hr className="border-t-[1px] border-black-100 w-[90%] mt-12 mb-10 mx-auto" />
 
-      <div className="bg-white py-12 px-6 md:py-16 md:px-12 lg:px-24 flex flex-col md:flex-row items-end justify-between">
+      <div className="bg-white py-8 px-8 flex flex-col md:flex-row items-end justify-between">
         <div className="text-center md:text-left" data-aos="fade-up">
-          <p className="text-base md:text-xs text-gray-500">
+          <p className="text-base md:text-sm text-gray-500">
             Explore traffic sources, page behavior, conversions, and more to
             gain deep insight <br /> into your audience. With us, your business
             does not just adapt — it evolves.
@@ -68,15 +70,15 @@ const EfficiencyComponent = () => {
         </div>
 
         {/* Buttons Section */}
-        <div className="flex">
+        <div className="flex space-x-4">
           <button
-            className="bg-gray-200 border border-gray-200 rounded-lg text-xs py-1 px-4 hover:bg-gray-100"
+            className="bg-gray-300 border border-gray-300 rounded-xl py-2 px-6 hover:bg-gray-100"
             data-aos="zoom-in"
           >
             Request a demo
           </button>
           <button
-            className="bg-[#F25922] text-white rounded-lg text-xs ml-1 py-1 px-4 hover:bg-[#d14a1a]"
+            className="bg-[#F25922] text-white rounded-xl py-2 px-6 hover:bg-[#d14a1a]"
             data-aos="zoom-in"
           >
             Start for free

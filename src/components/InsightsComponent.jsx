@@ -2,7 +2,7 @@ import { CiWavePulse1 } from 'react-icons/ci';
 
 function InsightsComponent() {
   return (
-    <div className="flex flex-col text-center space-y-2 md:text-left">
+    <div className="flex flex-col text-center space-y-2 md:text-left w-[90%] mx-auto">
       <div className="text-left p-8">
         <h1
           className="text-3xl md:text-8xl leading-tight"
