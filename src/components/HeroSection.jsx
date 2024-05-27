@@ -43,7 +43,7 @@ const HeroSection = () => {
             <FaPlay className="text-white text-sm " />
           </div>
           <img
-            src="../../public/images/hero-img4.jpeg"
+            src="./images/hero-img4.jpeg"
             alt="Analytics Illustration"
             className="w-64 h-40 rounded-2xl shadow-lg scale-up-center"
           />

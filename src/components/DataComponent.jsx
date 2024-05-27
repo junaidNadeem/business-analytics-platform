@@ -1,6 +1,6 @@
 function DataComponent() {
   return (
-    <div className="flex shadow-sm bg-[url('../../public/images/grid.png')] bg-repeat pt-12 pb-72 mt-12 mb-20 rounded-[3.5rem] bg-[#f9f9f9]">
+    <div className="flex shadow-sm bg-[url('./grid.png')] bg-repeat pt-12 pb-72 mt-12 mb-20 rounded-[3.5rem] bg-[#f9f9f9]">
       <div className="p-8 flex flex-col space-y-12 md:flex-row justify-between mb-10 relative w-[90%] mx-auto">
         {/* Left Section */}
         <div className="px-8 pb-8 space-y-6">
@@ -58,7 +58,7 @@ function DataComponent() {
             data-aos="fade-up"
           >
             <img
-              src="../../public/images/inner2-f.png"
+              src="./images/inner2-f.png"
               alt="laptop screen"
               className="w-full h-full rounded-md shadow-md"
             />
@@ -70,12 +70,12 @@ function DataComponent() {
           >
             <div className="flex flex-col items-center justify-center w-full h-full">
               <img
-                src="../../public/images/inner2-f.png"
+                src="./images/inner2-f.png"
                 alt="laptop screen"
                 className="w-full h-full rounded-md shadow-md "
               />
               <img
-                src="../../public/images/inside.jpeg"
+                src="./images/inside.jpeg"
                 alt="laptop screen"
                 className="w-full h-full rounded-md shadow-md"
                 data-aos="slide-up"

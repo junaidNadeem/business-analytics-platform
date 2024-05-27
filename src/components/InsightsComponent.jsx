@@ -21,7 +21,7 @@ function InsightsComponent() {
       <div className="bg-white p-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
           {/* Card 1*/}
-          <div className="bg-gray-100 rounded-3xl p-6 flex flex-col items-center justify-center relative bg-[url('../../public/images/grid.png')] bg-repeat ">
+          <div className="bg-gray-100 rounded-3xl p-6 flex flex-col items-center justify-center relative bg-[url('./grid.png')] bg-repeat ">
             <div className="flex items-center justify-center gap-2">
               <div className="flex items-center justify-center bg-gray-100">
                 <div
@@ -65,7 +65,7 @@ function InsightsComponent() {
                   <div className="mb-4">
                     <div className="flex items-center mb-2">
                       <img
-                        src="../../public/images/user.jpeg"
+                        src="./images/user.jpeg"
                         alt="User 1"
                         className="w-6 h-6 rounded-full object-cover mr-2"
                       />
@@ -78,7 +78,7 @@ function InsightsComponent() {
                     </div>
                     <div className="flex items-center">
                       <img
-                        src="../../public/images/user2.jpeg"
+                        src="./images/user2.jpeg"
                         alt="User 2"
                         className="w-6 h-6 rounded-full object-cover mr-2"
                       />
@@ -117,7 +117,7 @@ function InsightsComponent() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-gray-100 rounded-3xl p-6 flex flex-col items-center justify-center bg-[url('../../public/images/grid.png')] bg-repeat">
+          <div className="bg-gray-100 rounded-3xl p-6 flex flex-col items-center justify-center bg-[url('./grid.png')] bg-repeat">
             <div className="rounded-2xl shadow-md bg-white w-[70%] h-[70%] py-6 px-8 flex items-center relative">
               <div className="flex flex-col justify-start items-start text-[10px] gap-2">
                 <div className="flex items-center justify-center gap-1 mb-9">
@@ -141,7 +141,7 @@ function InsightsComponent() {
               </div>
               <div>
                 <img
-                  src="../../public/images/bargraph.png"
+                  src="./images/bargraph.png"
                   alt="bar graph"
                   className="w-64 h-40"
                 />

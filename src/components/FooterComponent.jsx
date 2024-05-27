@@ -67,7 +67,7 @@ function FooterComponent() {
         {/* Footer Bottom */}
         <div className="flex justify-between items-center">
           <img
-            src="../../public/images/ramos.png"
+            src="./images/ramos.png"
             alt="ramos image"
             className="rounded-md"
             data-aos="fade-up"
@@ -87,7 +87,7 @@ function FooterComponent() {
             data-aos="zoom-in"
           >
             <img
-              src="../../public/images/qrcode.png"
+              src="./images/qrcode.png"
               alt="QR Code"
               className=""
             />

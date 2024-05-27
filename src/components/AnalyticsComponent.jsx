@@ -120,7 +120,7 @@ const AnalyticsComponent = () => {
                 <h3 className="text-sm text-gray-500 mb-2">Visit statistics</h3>
                 <div className="flex items-end justify-between">
                   <img
-                    src="../../public/images/graph-up.jpeg"
+                    src="./images/graph-up.jpeg"
                     alt="Graph image"
                     className="w-[55%]"
                   />
@@ -150,12 +150,12 @@ const AnalyticsComponent = () => {
                   </div>
                   <div className="flex  mt-4">
                     <img
-                      src="../../public/images/user.jpeg"
+                      src="./images/user.jpeg"
                       alt="User 1"
                       className="w-12 h-12 rounded-full object-cover"
                     />
                     <img
-                      src="../../public/images/user2.jpeg"
+                      src="./images/user2.jpeg"
                       alt="User 2"
                       className="w-12 h-12 rounded-full object-cover"
                     />
